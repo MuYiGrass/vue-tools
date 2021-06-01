@@ -1,18 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Copy></Copy>
+    <LongPress></LongPress>
+    <Debounce></Debounce>
+    <Emoji></Emoji>
+    <LazyLoad></LazyLoad>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Copy from "./components/Copy";
+import LongPress from "./components/LongPress";
+import Debounce from "./components/Debounce";
+import Emoji from "./components/Emoji";
+import LazyLoad from "./components/LazyLoad";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  data() {
+    return {};
   },
+  components: {
+    Copy,
+    LongPress,
+    Debounce,
+    Emoji,
+    LazyLoad,
+  },
+  methods: {},
 };
 </script>
 
