@@ -5,6 +5,8 @@
     <Debounce></Debounce>
     <Emoji></Emoji>
     <LazyLoad></LazyLoad>
+    <WaterMarker></WaterMarker>
+    <Draggable></Draggable>
   </div>
 </template>
 
@@ -14,6 +16,8 @@ import LongPress from "./components/LongPress";
 import Debounce from "./components/Debounce";
 import Emoji from "./components/Emoji";
 import LazyLoad from "./components/LazyLoad";
+import WaterMarker from "./components/WaterMarker";
+import Draggable from "./components/Draggable";
 
 export default {
   name: "App",
@@ -26,6 +30,8 @@ export default {
     Debounce,
     Emoji,
     LazyLoad,
+    WaterMarker,
+    Draggable,
   },
   methods: {},
 };

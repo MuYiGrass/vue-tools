@@ -3,6 +3,8 @@ import longpress from "./longpress";
 import debounce from "./debounce";
 import emoji from "./emoji";
 import lazyLoad from "./lazyLoad";
+import waterMarker from "./waterMarker";
+import draggable from "./draggable";
 
 const directives = {
   copy,
@@ -10,6 +12,8 @@ const directives = {
   debounce,
   emoji,
   lazyLoad,
+  waterMarker,
+  draggable,
 };
 export default {
   install(Vue) {

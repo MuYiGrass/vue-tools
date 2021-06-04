@@ -26,7 +26,6 @@ export default {
 <style lang="less">
 .lazyLoad {
   border: solid rgb(22, 9, 9) 1px;
-  height: 100px;
   margin-bottom: 20px;
   padding: 10px 0;
   img {
